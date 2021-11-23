@@ -24,10 +24,10 @@
   flex-direction: column;
   background-color: rgb(63, 63, 63);
   height: 70vh;
-  width: 40vw;
+  width: 30vw;
   margin: 30px;
   border-radius: 5px;
-  box-shadow: 5px 10px 2px #888888;
+  box-shadow: 10px 10px 2px #888888;
 }
 
 .works-header-card-title {
@@ -35,8 +35,8 @@
 }
 
 .work-example-web {
-  height: 40%;
-  width: 50%;
+  height: 200px;
+  width: 250px;
   padding: 10px;
 }
 
