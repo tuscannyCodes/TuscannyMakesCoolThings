@@ -7,19 +7,28 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">WEB DEVELOPMENT</h1>
       </section>
-      <div className="worksContainer">
+      <div className="works-Container">
+      <card className="worksContainer-Card">
+        <h1 className="works-header-card-title">JavaScript AI</h1>
         <img
           className="work-example-web"
           src="/HueAi.jpg"
           alt="WebpageExample"
         ></img>
-
+      </card>
+      
+      
+      <card className="worksContainer-Card">
+        <h1 className="works-header-card-title">Solar Webpage</h1>
         <img
           className="work-example-web"
           src="/SolarCompany.jpg"
           alt="WebpageExample"
         ></img>
+        </card>
       </div>
+
+      
       {/* WEB DEV SECTION END*/}
 
       {/* PHOTOGRAPHY SECTION */}

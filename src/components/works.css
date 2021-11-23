@@ -10,24 +10,37 @@
   top: 0;
 }
 
+.works-Container {
+  display: flex;
+  flex-direction: row;
+}
 .works-header {
   color: white;
 }
 
-.worksContainer {
+.worksContainer-Card {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  background-color: rgb(63, 63, 63);
+  height: 50vh;
+  width: 40vw;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 2px #888888;
+}
+
+.works-header-card-title {
+  color: white;
 }
 
 .work-example-web {
-  height: 70vh;
-  width: 70vw;
+  height: 20vh;
+  width: 30vw;
   padding: 10px;
 }
 
 .work-example-photography {
-  height: 85vh;
+  height: 50vh;
   width: 30vw;
 }

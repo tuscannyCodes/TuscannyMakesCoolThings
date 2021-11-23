@@ -24,7 +24,7 @@ function Navbar() {
    {/* hamburger */}
  
           <div onClick={() => {navigate(ROUTES.HOME)}} className="navbar-text">HOME</div>
-          <div onClick={() => {navigate(ROUTES.ABOUT)}} className="navbar-text">ABOUT ME</div>
+          <div onClick={() => {navigate(ROUTES.ABOUT)}} className="navbar-text">ABOUT</div>
           <div onClick={() => {navigate(ROUTES.WORKS)}} className="navbar-text">WORKS</div>
           <div onClick={() => {navigate(ROUTES.CONTACT)}} className="navbar-text">CONTACT</div>
     </nav>
