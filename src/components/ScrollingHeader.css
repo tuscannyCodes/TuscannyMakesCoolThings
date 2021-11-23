@@ -1,0 +1,61 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+span {
+  padding: 0.5vw;
+  margin-top: 0.1em;
+}
+
+.header-container {
+  color: white;
+}
+
+/* SCROLL ANIMATION */
+.marquee {
+  font-size: 2em;
+  position: relative;
+  overflow: hidden;
+  --offset: 15vw;
+  move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-25% + var(--offset));
+  color: white;
+  z-index: 1;
+  width: 500%;
+  height: 3em;
+}
+.marquee__inner {
+  display: flex;
+  position: relative;
+  animation: marquee 5s linear infinite;
+
+  width: 300vw;
+}
+
+.marquee span {
+  font-size: 3em;
+  padding: 0 2vw;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  span {
+    margin-top: 0.3em;
+  }
+
+  .marquee {
+    font-size: 1em;
+  }
+}

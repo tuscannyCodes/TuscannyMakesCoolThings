@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 10vh;
+  width: 100vw;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar-text {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 2em;
+  margin-right: 2em;
+  color: white;
+  flex-direction: column;
+}
+
+/* HAMBURGER */
+.nav-hamburger {
+  display: none;
+  flex-direction: row;
+}
+
+.nav-hamburger-line {
+  width: 8vw;
+  height: 1vh;
+  border-radius: 5px;
+  background-color: white;
+  margin: 1vh;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 600px) {
+  .navbar-text {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}

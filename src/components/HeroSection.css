@@ -1,0 +1,20 @@
+.hero-section {
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-bottom: 20em;
+}
+
+.hero-text {
+  color: black;
+  font-size: 10em;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    font-size: 3.2em;
+    margin-left: -0.5em;
+  }
+}

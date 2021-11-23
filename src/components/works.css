@@ -1,0 +1,33 @@
+.works-header-section {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background-color: black;
+  height: 10vh;
+  width: 100vw;
+  margin: 0;
+  align-items: center;
+  top: 0;
+}
+
+.works-header {
+  color: white;
+}
+
+.worksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.work-example-web {
+  height: 70vh;
+  width: 70vw;
+  padding: 10px;
+}
+
+.work-example-photography {
+  height: 85vh;
+  width: 30vw;
+}
