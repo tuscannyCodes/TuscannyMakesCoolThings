@@ -71,10 +71,25 @@ function Works() {
           src="/DEAF_LOGO.jpg"
           alt="GraphicDesignExample"
         ></img>
+</div>
 
-
-
-      </div>
+<div className="works-Container-Images">
+      <img
+          className="work-example-graphics"
+          src="/DeafApe.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+        <img id="likeusImg"
+          
+          src="/likeus2.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+        <img
+          className="work-example-graphics"
+          src="/DEAF_FACES.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+</div>
     </>
   );
 }

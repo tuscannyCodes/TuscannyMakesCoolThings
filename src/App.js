@@ -44,7 +44,7 @@ function App() {
             path={ROUTES.CONTACT}
             element={
               <>
-                <div>Hello world! contact</div>
+                <div> This contact page is under construction</div>
               </>
             }
           />
