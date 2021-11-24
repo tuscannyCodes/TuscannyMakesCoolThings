@@ -75,8 +75,8 @@ function Works() {
 
 <div className="works-Container-Images">
       <img
-          className="work-example-graphics"
-          src="/DeafApe.jpg"
+          className="hoodie_progress"
+          src="/hoodie_progress.jpg"
           alt="GraphicDesignExample"
         ></img>
         <img id="likeusImg"
