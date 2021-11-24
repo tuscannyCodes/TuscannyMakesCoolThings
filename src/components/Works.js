@@ -7,25 +7,23 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">WEB DEVELOPMENT</h1>
       </section>
-      <div className="works-Container">
-      <card className="worksContainer-Card">
-        <h1 className="works-header-card-title">JavaScript AI</h1>
+      <div className="works-Container-Web">
+      
         <img
           className="work-example-web"
           src="/HueAi.jpg"
           alt="WebpageExample"
         ></img>
-      </card>
+     
       
       
-      <card className="worksContainer-Card">
-        <h1 className="works-header-card-title">Solar Webpage</h1>
+
         <img
           className="work-example-web"
           src="/SolarCompany.jpg"
           alt="WebpageExample"
         ></img>
-        </card>
+        
       </div>
 
       
@@ -35,7 +33,7 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">PHOTOGRAPHY</h1>
       </section>
-      <div className="worksContainer">
+      <div className="works-Container-Images">
         {" "}
         <img
           className="work-example-photography"
@@ -57,7 +55,26 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">GRAPHIC DESIGN</h1>
       </section>
-      <div className="worksContainer"></div>
+      <div className="works-Container-Images">
+      <img
+          className="work-example-graphics"
+          src="/DeafApe.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+        <img
+          className="work-example-graphics"
+          src="/thomasthevegan.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+        <img
+          className="work-example-graphics"
+          src="/DEAF_LOGO.jpg"
+          alt="GraphicDesignExample"
+        ></img>
+
+
+
+      </div>
     </>
   );
 }
