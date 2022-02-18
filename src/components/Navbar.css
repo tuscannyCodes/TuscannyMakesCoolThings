@@ -21,6 +21,7 @@
 }
 
 .navbar-text:hover {
+  font-size: 35px;
   color: darkgrey;
 }
 

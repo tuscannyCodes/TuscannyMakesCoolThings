@@ -21,7 +21,7 @@ function Navbar() {
 <div className="nav-hamburger-line"></div>
 <div className="nav-hamburger-line"></div>
 </div>
-   {/* hamburger */}
+   {/* hamburger end*/}
  
           <div onClick={() => {navigate(ROUTES.HOME)}} className="navbar-text">HOME</div>
           <div onClick={() => {navigate(ROUTES.ABOUT)}} className="navbar-text">ABOUT</div>

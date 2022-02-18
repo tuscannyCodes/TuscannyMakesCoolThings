@@ -77,12 +77,12 @@ function Works() {
       <img
           className="hoodie_progress"
           src="/hoodie_progress.jpg"
-          alt="GraphicDesignExample"
+          alt="InfiniteUgly Hoodie Example"
         ></img>
         <img id="likeusImg"
           
           src="/likeus2.jpg"
-          alt="GraphicDesignExample"
+          alt="Like button Example"
         ></img>
         <img
           className="work-example-graphics"
