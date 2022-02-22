@@ -1,6 +1,6 @@
 import "./HeroSection.css";
-import "./RotatingImg";
-import RotatingImg from "./RotatingImg";
+// import "./RotatingImg";
+import RotatingImg from "../RotatingImg/RotatingImg.js";
 
 function HeroSection() {
   return (

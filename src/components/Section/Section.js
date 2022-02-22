@@ -1,5 +1,5 @@
 import './Section.css';
-import ScrollingHeader from './ScrollingHeader';
+import ScrollingHeader from '../ScrollingHeader/ScrollingHeader';
 
 function Section() {
     return (

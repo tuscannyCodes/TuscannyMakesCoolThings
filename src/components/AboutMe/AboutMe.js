@@ -7,7 +7,7 @@ function AboutMe() {
         <img
           className="meImage"
           src="../meIcon.png"
-          alt="Placeholder Image of me"
+          alt="Cartoon of me"
         ></img>
       </div>
       <section className="about-me-section">

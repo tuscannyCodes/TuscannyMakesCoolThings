@@ -1,9 +1,9 @@
-import Navbar, { ROUTES } from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import Section from "./components/Section";
-import AboutMe from "./components/AboutMe";
-import Works from "./components/Works";
-import Footer from "./components/Footer";
+import Navbar, { ROUTES } from "./components/Navbar/Navbar";
+import HeroSection from "./components/Hero/HeroSection";
+import Section from "./components/Section/Section";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Works from "./components/Works/Works";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

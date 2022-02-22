@@ -10,6 +10,8 @@ export const ROUTES = {
 
 function Footer() {
     const navigate = useNavigate();
+// const routesArray = [HOME,ABOUT,WORKS,CONTACT] 
+
 
     return (
        
