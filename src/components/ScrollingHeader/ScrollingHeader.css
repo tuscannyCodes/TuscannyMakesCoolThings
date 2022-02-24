@@ -1,4 +1,4 @@
-.header-container {
+/* .header-container {
   display: flex;
   justify-content: space-between;
   color: white;
@@ -13,7 +13,7 @@ span {
   color: white;
 }
 
-/* SCROLL ANIMATION */
+
 .marquee {
   font-size: 2em;
   position: relative;
@@ -58,4 +58,25 @@ span {
   .marquee {
     font-size: 1em;
   }
+} */
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 500%;
+  height: 206px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.track > h1 {
+  margin: 20px 0;
+  font-size: 8rem;
+  color: white;
+
+  text-transform: uppercase;
 }
