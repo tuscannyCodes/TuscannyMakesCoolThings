@@ -1,14 +1,28 @@
 import React, { useState, useCallback } from "react";
 import "./InputBox.css";
 
+const today = new Date();
+let time =  today.toLocaleString('en-US', { hour: 'numeric', hour12: true })
+
 const useChatbot = (userInput) => {
-  if (userInput === "hi") {
+  if (userInput.includes("hi")) {
     return "hello";
   }
-  else if (userInput === "hello") {
+  else if (userInput.includes( "hello")) {
     return "hi";
   }
-  return "i am a robot ";
+  else if (userInput.includes ("who")) {
+    return "im hue, a chatbot";
+  }
+
+  else if (userInput.includes ("time")) {
+    return time;
+  }
+  else if (userInput.includes ("you")) {
+    return "I was built with React js and Framer Motion!";
+  }
+
+  return "i am a robot :D ";
 };
 
 function HueChatbot() {
@@ -20,7 +34,7 @@ function HueChatbot() {
   const handleUserInput = useCallback(
     (userInput) => {
       setUserText(userInput);
-      console.log(userText)
+      
     },
     [setUserText,userText]
   );

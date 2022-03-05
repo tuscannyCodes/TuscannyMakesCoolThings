@@ -46,3 +46,7 @@ form {
 .mainButton:active {
   background-color: red;
 }
+
+.speakBox {
+  margin: 20px;
+}
