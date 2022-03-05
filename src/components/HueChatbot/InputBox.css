@@ -8,7 +8,7 @@
   width: 40vh;
   height: 20vh;
   border-radius: 10px;
-  background-color: grey;
+  background-color: rgb(77, 76, 76);
   color: white;
   box-shadow: 10px 10px 5px black;
 }
@@ -20,6 +20,7 @@ form {
   justify-content: center;
 }
 .mainInputBox {
+  font-size: 20px;
   max-height: 20px;
   width: 200px;
 }
