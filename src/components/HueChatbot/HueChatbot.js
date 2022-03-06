@@ -27,6 +27,8 @@ const useChatbot = (userInput) => {
 
 function HueChatbot() {
   // state will need to be passed down from program file.
+
+  const form = document.getElementsByTagName("form")
   const [userText, setUserText] = useState("test");
 
   const chatbotResponse = useChatbot(userText);

@@ -1,9 +1,11 @@
 import Navbar, { ROUTES } from "./components/Navbar/Navbar";
+import {AnimatePresence, motion} from "framer-motion";
 import HeroSection from "./components/Hero/HeroSection";
 import Section from "./components/Section/Section";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Works from "./components/Works/Works";
 import Footer from "./components/Footer/Footer";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
+          
           <Route
             path={ROUTES.HOME}
             exact={true}
@@ -22,6 +25,7 @@ function App() {
               </>
             }
           />
+          
           <Route
             path={ROUTES.ABOUT}
             element={
