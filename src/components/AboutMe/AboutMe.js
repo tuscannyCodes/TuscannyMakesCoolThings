@@ -1,7 +1,11 @@
 import "./AboutMe.css";
-
+import {motion} from "framer-motion";
 function AboutMe() {
   return (
+    <motion.div 
+    initial={{translateX:900}} 
+    animate={{translateX:0}}
+    exit={{scaleY:0}} >
     <div className="about-me-main-container">
       <div className="about-me-container">
         <img
@@ -36,6 +40,7 @@ function AboutMe() {
 
       </section>
     </div>
+    </motion.div>
   );
 }
 

@@ -10,11 +10,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
+    
     <Router>
+       <animatePresence exitBeforeEnter={true} initial={false} >
       <div>
         <Navbar />
+       
         <Routes>
-          
+         
           <Route
             path={ROUTES.HOME}
             exact={true}
@@ -25,6 +28,7 @@ function App() {
               </>
             }
           />
+          
           
           <Route
             path={ROUTES.ABOUT}
@@ -56,7 +60,9 @@ function App() {
         </Routes>
         <Footer/>
       </div>
+      </animatePresence>
     </Router>
+    
   );
 }
 

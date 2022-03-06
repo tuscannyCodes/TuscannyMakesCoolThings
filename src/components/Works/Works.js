@@ -1,10 +1,15 @@
 // really want to rework this entire page. Its not cool enough and does not display the work in a flattering way. Not sure how to format it all. 
 //Translate horizontal ***
 import "./works.css";
-
+import {motion} from "framer-motion";
 function Works() {
   return (
-    <>
+    <motion.div 
+    initial={{scaleY:0}} 
+    animate={{scaleY:1}}
+    exit={{scaleY:0}} >
+    
+      
       {/* WEB DEV SECTION */}
       <section className="works-header-section">
         <h1 className="works-header">WEB DEVELOPMENT</h1>
@@ -92,7 +97,8 @@ function Works() {
           alt="GraphicDesignExample"
         ></img>
 </div>
-    </>
+    
+    </motion.div>
   );
 }
 
