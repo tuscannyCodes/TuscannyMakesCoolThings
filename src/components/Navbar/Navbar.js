@@ -14,7 +14,7 @@ function Navbar() {
     const navigate = useNavigate();
     const [toggleDirection, setToggleDirection] = useState(-900) 
     const toggleOn = () => {
-      setToggleDirection(toggleDirection === -500 ? 0 : -500)
+      setToggleDirection(toggleDirection === -900 ? 0 : -900)
     
     
     }
