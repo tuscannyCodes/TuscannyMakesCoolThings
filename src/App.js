@@ -1,5 +1,5 @@
 import Navbar, { ROUTES } from "./components/Navbar/Navbar";
-import {AnimatePresence, motion} from "framer-motion";
+import {animatePresence, motion} from "framer-motion";
 import HeroSection from "./components/Hero/HeroSection";
 import Section from "./components/Section/Section";
 import AboutMe from "./components/AboutMe/AboutMe";

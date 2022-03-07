@@ -15,7 +15,7 @@ function Navbar() {
       <>
    
       <nav className="navbar">
-           {/* hamburger */}
+           {/* hamburger start */}
      <div className="nav-hamburger">
 <div className="nav-hamburger-line"></div>
 <div className="nav-hamburger-line"></div>

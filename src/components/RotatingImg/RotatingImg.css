@@ -60,4 +60,8 @@
     width: 15em;
     margin-top: 2em;
   }
+
+  .RotatingImg-Container {
+    margin-left: 10em;
+  }
 }
