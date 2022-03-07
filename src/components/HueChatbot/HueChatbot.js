@@ -12,9 +12,14 @@ const useChatbot = (userInput) => {
     return "hi";
   }
   else if (userInput.includes ("who")) {
-    return "im hue, a chatbot";
+    return "Im a robot built by the creator of this website";
   }
-
+  else if (userInput.includes ("name")) {
+    return "my name is hue, Im a chatbot";
+  }
+  else if (userInput.includes ("where")) {
+    return "I live inside this website :D";
+  }
   else if (userInput.includes ("time")) {
     return time;
   }
