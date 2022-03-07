@@ -22,11 +22,20 @@
                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 568px) {
   .hero-text {
-    font-size: 3.2em;
     margin-left: -0.5em;
-    font-size: 80px;
+    font-size: 10px;
+  }
+
+  .hero-section {
+    margin-bottom: 26em;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .hero-text {
+    margin-left: -0.5em;
+    font-size: 70px;
   }
 
   .hero-section {
