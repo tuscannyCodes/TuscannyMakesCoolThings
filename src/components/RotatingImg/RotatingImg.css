@@ -15,6 +15,12 @@
   }
 } */
 
+.RotatingImg-Container {
+  position: absolute;
+  margin-left: 10em;
+  margin-top: -15em;
+}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
     -webkit-transform: rotate(0deg);
@@ -58,10 +64,12 @@
   .hero-design {
     margin-left: 0em;
     width: 15em;
-    margin-top: 2em;
+    margin-top: -13.5em;
   }
 
   .RotatingImg-Container {
-    margin-left: 10em;
+    position: relative;
+    margin-left: 15em;
+    margin-top: -10em;
   }
 }

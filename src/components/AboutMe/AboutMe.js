@@ -5,7 +5,9 @@ function AboutMe() {
     <motion.div 
     initial={{translateX:900}} 
     animate={{translateX:0}}
-    exit={{scaleY:0}} >
+    exit={{scaleY:0}} 
+    transition={{ type: "spring", stiffness: 100 }}
+    >
     <div className="about-me-main-container">
       <div className="about-me-container">
         <img

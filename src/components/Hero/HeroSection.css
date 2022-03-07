@@ -1,7 +1,10 @@
 .hero-section {
+  display: flex;
+  flex-direction: row;
   margin-top: 5em;
   margin-left: 3em;
   margin-bottom: 20em;
+  height: 500px;
 }
 
 .hero-text {

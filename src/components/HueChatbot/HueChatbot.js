@@ -22,7 +22,7 @@ const useChatbot = (userInput) => {
     return "I was built with React js and Framer Motion!";
   }
 
-  return "i am a robot :D ";
+  return "Im a chatbot!";
 };
 
 function HueChatbot() {
