@@ -11,7 +11,7 @@
 .navbar-text {
   padding-right: 20px;
   font-size: 30px;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
   cursor: pointer;
   margin-left: 2em;
@@ -21,6 +21,19 @@
   transition: all 1s ease;
 }
 
+#HamNavbarLinks {
+  margin-top: 3em;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#navbarTitle {
+  margin-left: 1em;
+}
 .navbar-text:hover {
   color: rgb(77, 76, 76);
 }
