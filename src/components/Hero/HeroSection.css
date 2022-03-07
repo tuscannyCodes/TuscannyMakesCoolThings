@@ -24,18 +24,20 @@
 
 @media only screen and (max-width: 568px) {
   .hero-text {
-    margin-left: -0.5em;
-    font-size: 10px;
+    font-size: 70px;
+    width: 100px;
   }
 
   .hero-section {
+    margin-left: 0;
     margin-bottom: 26em;
   }
 }
-@media only screen and (max-width: 736px) {
+
+@media only screen and (min-width: 736px) {
   .hero-text {
-    margin-left: -0.5em;
-    font-size: 70px;
+    margin-left: 0.001em;
+    font-size: 9em;
   }
 
   .hero-section {

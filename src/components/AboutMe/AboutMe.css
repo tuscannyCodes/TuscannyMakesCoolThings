@@ -41,4 +41,17 @@
   .about-me-text {
     font-size: 20px;
   }
+
+  .meImage {
+    padding: 10em;
+    margin-top: -90px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .meImage {
+    margin-top: -150px;
+  }
 }
