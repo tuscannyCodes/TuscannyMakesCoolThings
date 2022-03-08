@@ -18,8 +18,8 @@
     "homepage":"https://tuscannycodes.gitgub.io"
   },
   "scripts": {
-    "predeploy": "yarn start",
-    "deploy": "gh-pages -d start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
