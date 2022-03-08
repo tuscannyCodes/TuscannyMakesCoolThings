@@ -22,7 +22,7 @@ function Works() {
       <motion.div className="carousel">
         {/* this div is the actual moving div */}
         <motion.div  drag="x" 
-        dragConstraints={{right:200, left: -350 }} className="inner-carousel">
+        dragConstraints={{right:10, left: -800 }} className="inner-carousel">
          
               <motion.div className="item">
               <img
@@ -31,10 +31,18 @@ function Works() {
           alt="WebpageExample"
         ></img>
 </motion.div>
-<motion.div className="item">
+<motion.div  className="item">
 <img
+          
           className="work-example-web"
           src="/SolarCompany.jpg"
+          alt="WebpageExample"
+        ></img>
+              </motion.div>
+              <motion.div className="item">
+<img
+          className="work-example-web"
+          src="/FruitGame.jpg"
           alt="WebpageExample"
         ></img>
               </motion.div>
@@ -83,11 +91,11 @@ function Works() {
       <motion.div className="carousel">
         {/* this div is the actual moving div */}
         <motion.div  drag="x" 
-        dragConstraints={{right:200, left: -350 }} className="inner-carousel">
+        dragConstraints={{right:10, left: -200 }} className="inner-carousel">
          
               <motion.div className="item">
               <img
-          className="work-example-web"
+          className="work-example-photography"
           src="/Photography1.jpg"
           alt="WebpageExample"
         ></img>

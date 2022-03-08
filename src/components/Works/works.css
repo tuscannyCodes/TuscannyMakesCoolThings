@@ -44,10 +44,14 @@
   justify-content: center;
   flex-direction: row;
 }
+.work-example-web {
+  height: 100%;
+  width: 100%;
+}
 
 .work-example-photography {
-  height: 50%;
-  width: 30%;
+  height: 100%;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -84,11 +88,17 @@
 .inner-carousel {
   display: flex;
   flex-direction: row;
-  /* background-color: aqua; */
+
+  background-color: aqua;
 }
 
 @media (max-width: 600px) {
   .works-header-section {
     position: static;
+  }
+
+  .work-example-web {
+    height: 200px;
+    width: 400px;
   }
 }
