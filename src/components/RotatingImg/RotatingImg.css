@@ -60,7 +60,7 @@
   animation: rotating 15s linear infinite;
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 600px) {
   .hero-design {
     margin-left: 0em;
     width: 15em;
@@ -71,5 +71,21 @@
     position: relative;
     margin-left: 0em;
     margin-top: -10em;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+  .hero-design {
+    margin-left: 40em;
+    width: 20em;
+    margin-top: -2em;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .hero-design {
+    margin-left: 30em;
+    width: 5em;
+    margin-top: -2em;
   }
 }

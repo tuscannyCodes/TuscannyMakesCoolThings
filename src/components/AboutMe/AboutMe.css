@@ -50,8 +50,26 @@
   }
 }
 
-@media only screen and (max-width: 568px) {
+@media (max-width: 600px) {
+  .about-me-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
   .meImage {
-    margin-top: -150px;
+    padding: 10em;
+    margin-top: -90px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (width: 764px) {
+  .meImage {
+    padding: 10em;
+    margin-top: -90px;
+    width: 200px;
+    height: 200px;
   }
 }

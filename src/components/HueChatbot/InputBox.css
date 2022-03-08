@@ -9,7 +9,7 @@
   height: 20vh;
   border-radius: 10px;
   /* background-color: rgb(77, 76, 76); */
-  background-color: white;
+
   color: black;
   /* box-shadow: 10px 10px 5px black; */
 }
@@ -56,6 +56,12 @@ form {
 }
 
 @media only screen and (max-width: 600px) {
+  .inputBox-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1366px) {
   .inputBox-container {
     display: none;
   }

@@ -21,13 +21,26 @@
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
-  .section-text {
-    font-size: 30px;
-    line-height: 40px;
+@media (max-width: 600px) {
+  .section-text-container {
+    line-height: 2em;
   }
 
-  .section-text-container {
-    line-height: 20px;
+  .section-text {
+    font-size: 16px;
+  }
+
+  .content-section {
+    height: 150vh;
+  }
+
+  .content-section {
+    height: 90vh;
+  }
+}
+
+@media (width: 320px) {
+  .content-section {
+    height: 120vh;
   }
 }
