@@ -8,6 +8,7 @@
   margin: 0;
   align-items: center;
   top: 0;
+  z-index: 1;
 }
 
 .works-Container-Web {
@@ -83,5 +84,11 @@
 .inner-carousel {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+
+@media (max-width: 600px) {
+  .works-header-section {
+    position: static;
+  }
 }

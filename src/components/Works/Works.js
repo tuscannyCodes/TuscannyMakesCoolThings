@@ -16,7 +16,9 @@ function Works() {
       
       {/* WEB DEV SECTION */}
 
-
+      <section className="works-header-section">
+        <h1 className="works-header">Web Development</h1>
+      </section>
       <motion.div className="carousel">
         {/* this div is the actual moving div */}
         <motion.div  drag="x" 
@@ -77,7 +79,25 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">PHOTOGRAPHY</h1>
       </section>
-      <div className="works-Container-Images">
+
+      <motion.div className="carousel">
+        {/* this div is the actual moving div */}
+        <motion.div  drag="x" 
+        dragConstraints={{right:200, left: -350 }} className="inner-carousel">
+         
+              <motion.div className="item">
+              <img
+          className="work-example-web"
+          src="/Photography1.jpg"
+          alt="WebpageExample"
+        ></img>
+</motion.div>
+</motion.div>
+</motion.div>
+
+
+
+      {/* <div className="works-Container-Images">
         {" "}
         <img
           className="work-example-photography"
@@ -94,7 +114,7 @@ function Works() {
           src="/005.jpg"
           alt="WebpageExample"
         ></img>
-      </div>
+      </div> */}
       {/* PHOTOGRAPHY SECTION END*/}
       <section className="works-header-section">
         <h1 className="works-header">GRAPHIC DESIGN</h1>
