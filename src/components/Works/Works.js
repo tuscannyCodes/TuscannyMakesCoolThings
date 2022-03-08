@@ -3,6 +3,10 @@
 import "./works.css";
 import {motion} from "framer-motion";
 function Works() {
+
+
+
+  
   return (
     <motion.div 
     initial={{scaleY:0}} 
@@ -11,7 +15,40 @@ function Works() {
     
       
       {/* WEB DEV SECTION */}
-      <section className="works-header-section">
+
+
+      <motion.div className="carousel">
+        {/* this div is the actual moving div */}
+        <motion.div  drag="x" 
+        dragConstraints={{right:200, left: -350 }} className="inner-carousel">
+         
+              <motion.div className="item">
+              <img
+          className="work-example-web"
+          src="/HueAi.jpg"
+          alt="WebpageExample"
+        ></img>
+</motion.div>
+<motion.div className="item">
+<img
+          className="work-example-web"
+          src="/SolarCompany.jpg"
+          alt="WebpageExample"
+        ></img>
+              </motion.div>
+            
+          
+        </motion.div>
+      </motion.div>
+
+
+
+
+
+
+
+
+      {/* <section className="works-header-section">
         <h1 className="works-header">WEB DEVELOPMENT</h1>
       </section>
       <div className="works-Container-Web">
@@ -31,7 +68,7 @@ function Works() {
           alt="WebpageExample"
         ></img>
         
-      </div>
+      </div> */}
 
       
       {/* WEB DEV SECTION END*/}

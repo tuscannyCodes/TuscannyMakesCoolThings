@@ -8,7 +8,7 @@ function Contact() {
     initial={{translateX:-900}} 
     animate={{translateX:0}}
     exit={{translateX:900}} 
-    transition={{ type: "spring", stiffness: 100 }}
+    transition={{ type: "spring", stiffness: 90 }}
     >
 <div class="contactDiv">
 <h1>Contact Me</h1>
