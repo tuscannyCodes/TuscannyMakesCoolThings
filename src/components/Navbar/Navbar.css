@@ -31,6 +31,10 @@
   cursor: pointer;
 }
 
+.HamNavbarTitle {
+  margin-top: 2em;
+}
+
 #navbarTitle {
   margin-left: 1em;
 }
@@ -63,6 +67,7 @@
   }
 
   .nav-hamburger {
+    z-index: 1;
     display: block;
     cursor: pointer;
   }

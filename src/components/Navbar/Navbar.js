@@ -23,7 +23,7 @@ function Navbar() {
          <motion.div onTap={toggleOn} className="HamburgerCard"
     animate={{x:toggleDirection}}
     >
-      <h1 id="HamNavbarTitle">I make cool things</h1>
+      {/* <h1 id="HamNavbarTitle">I make cool things</h1> */}
       <section id="HamNavbarLinks">
       <div onClick={() => {navigate(ROUTES.HOME)}} className="HamNavbarLinks"><h1>HOME</h1></div>
       <div onClick={() => {navigate(ROUTES.ABOUT)}} className="HamNavbarLinks"><h1>ABOUT</h1></div>
