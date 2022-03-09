@@ -33,11 +33,6 @@
   box-shadow: 10px 10px 2px #888888;
 } */
 
-.work-example-web {
-  height: 90%;
-  width: 90%;
-  padding: 10px;
-}
 .works-Container-Images {
   display: flex;
   align-items: center;
@@ -47,12 +42,13 @@
 .work-example-web {
   height: 100%;
   width: 100%;
+  padding: 10px;
 }
 
 .work-example-photography {
   height: 100%;
   width: 100%;
-  cursor: pointer;
+  padding: 10px;
 }
 
 .work-example-graphics {
@@ -89,16 +85,11 @@
   display: flex;
   flex-direction: row;
 
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 @media (max-width: 600px) {
   .works-header-section {
     position: static;
-  }
-
-  .work-example-web {
-    height: 200px;
-    width: 400px;
   }
 }

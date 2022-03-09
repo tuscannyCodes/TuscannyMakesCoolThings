@@ -9,7 +9,7 @@
 
 .hero-text {
   color: black;
-  font-size: 10em;
+  font-size: clamp(2rem, 1rem + 10vw, 8.5rem);
   margin: 0;
   padding: 0;
   cursor: default;

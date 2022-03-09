@@ -13,7 +13,7 @@ function Works() {
     animate={{scaleY:1}}
     exit={{scaleY:0}} >
     
-      
+      {/* MAKE IMAGES LARGER*/}
       {/* WEB DEV SECTION */}
 
       <section className="works-header-section">

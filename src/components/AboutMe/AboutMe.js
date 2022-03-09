@@ -12,7 +12,7 @@ function AboutMe() {
       <div className="about-me-container">
         <img
           className="meImage"
-          src="../meIcon.png"
+          src="../meIcon.jpg"
           alt="Cartoon of me"
         ></img>
       </div>
