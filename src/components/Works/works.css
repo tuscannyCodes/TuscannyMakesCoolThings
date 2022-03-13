@@ -82,7 +82,7 @@
   overflow: hidden;
 }
 /* inner carousel controls the area I can grab */
-.inner-carousel {
+.inner-carousel-Web {
   display: flex;
   flex-direction: row;
   width: 150em;
@@ -90,8 +90,26 @@
   /* background-color: aqua; */
 }
 
+.inner-carousel-Photo {
+  display: flex;
+  flex-direction: row;
+  width: 100em;
+
+  /* background-color: aqua; */
+}
+
 @media (max-width: 600px) {
   .works-header-section {
     position: static;
+  }
+
+  .Photo-Images {
+    width: 70%;
+    height: 70%;
+  }
+
+  .Web-Images {
+    width: 50%;
+    height: 50%;
   }
 }

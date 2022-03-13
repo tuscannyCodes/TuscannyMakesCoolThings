@@ -21,14 +21,14 @@ function Works() {
         {/* this div is the actual moving div */}
         <motion.div
           drag="x"
-          dragConstraints={{ right: 10, left: -800 }}
-          className="inner-carousel"
+          dragConstraints={{ right: 10, left: -1000 }}
+          className="inner-carousel-Web"
         >
           {WebImages.map((image) => {
             return (
               <motion.div className="item" key={image}>
                 {/* this div takes the WebImages array and makes smaller div's from each image and places them in a img tag.VERY COOL  */}
-                <img src={image}></img>
+                <img className="Web-Images" src={image}></img>
               </motion.div>
             );
           })}
@@ -47,13 +47,13 @@ function Works() {
         <motion.div
           drag="x"
           dragConstraints={{ right: 10, left: -200 }}
-          className="inner-carousel"
+          className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {
             return (
               <motion.div className="item" key={image}>
                 {/* this div takes the PhotoImages array and makes smaller div's from each image and places them in a img tag.VERY COOL  */}
-                <img src={image}></img>
+                <img className="Photo-Images" src={image}></img>
               </motion.div>
             );
           })}
