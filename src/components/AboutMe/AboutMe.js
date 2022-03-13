@@ -18,7 +18,7 @@ function AboutMe() {
       </div>
       <section className="about-me-section">
         <h1>
-          Graphic designer, photographer, and front end developer based in
+        Front End Developer, Photographer, Graphic designer based in
           Orlando, FL.
         </h1>
         <h1 className="about-me-text">
