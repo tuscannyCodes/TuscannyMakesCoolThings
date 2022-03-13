@@ -81,9 +81,11 @@
   cursor: grab;
   overflow: hidden;
 }
+/* inner carousel controls the area I can grab */
 .inner-carousel {
   display: flex;
   flex-direction: row;
+  width: 150em;
 
   /* background-color: aqua; */
 }
