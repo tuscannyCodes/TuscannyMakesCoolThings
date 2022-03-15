@@ -12,6 +12,7 @@ function Works() {
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
       exit={{ scaleY: 0 }}
+      className="motion-div"
     >
       {/* MAKE IMAGES LARGER*/}
       {/* WEB DEV SECTION */}
