@@ -1,5 +1,4 @@
-// really want to rework this entire page. Its not cool enough and does not display the work in a flattering way. Not sure how to format it all.
-//Translate horizontal ***
+
 import "./works.css";
 import { motion } from "framer-motion";
 import WebImages from "./WebImages.js";
@@ -22,7 +21,7 @@ function Works() {
       </section>
       <motion.div
         drag="x"
-        dragConstraints={{ left: -(2400 - clientWidth) , right: 0 }}
+        dragConstraints={{ left: -(2400 - clientWidth) , right: 10 }}
         className="inner-carousel-Web"
       >
         {WebImages.map((image) => {
@@ -43,14 +42,14 @@ function Works() {
         {/* this div is the actual moving div */}
         <motion.div
           drag="x"
-          dragConstraints={{ right: 10, left: -200 }}
+          dragConstraints={{ left: -(2400 - clientWidth) , right: 10  }}
           className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {
             return (
               <motion.div className="item" key={image}>
                 {/* this div takes the PhotoImages array and makes smaller div's from each image and places them in a img tag.VERY COOL  */}
-                <img className="Photo-Images" src={image}></img>
+                <img onDragStart={e => e.preventDefault()} className="Photo-Images" src={image} />
               </motion.div>
             );
           })}
@@ -66,17 +65,17 @@ function Works() {
           className="work-example-graphics"
           src="/DeafApe.jpg"
           alt="GraphicDesignExample"
-        ></img>
+        />
         <img
           className="work-example-graphics"
           src="/thomasthevegan.jpg"
           alt="GraphicDesignExample"
-        ></img>
+        />
         <img
           className="work-example-graphics"
           src="/DEAF_LOGO.jpg"
           alt="GraphicDesignExample"
-        ></img>
+        />
       </div>
 
       <div className="works-Container-Images">
@@ -84,13 +83,13 @@ function Works() {
           className="hoodie_progress"
           src="/hoodie_progress.jpg"
           alt="InfiniteUgly Hoodie Example"
-        ></img>
+        />
         <img id="likeusImg" src="/likeus2.jpg" alt="Like button Example"></img>
         <img
           className="work-example-graphics"
           src="/DEAF_FACES.jpg"
           alt="GraphicDesignExample"
-        ></img>
+        />
       </div>
     </motion.div>
   );
