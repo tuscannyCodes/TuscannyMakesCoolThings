@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 import WebImages from "./WebImages.js";
 import PhotoImages from "./PhotoImages.js";
 function Works() {
+
+  const clientWidth = document.body.clientWidth;
+
   return (
     <motion.div
       initial={{ scaleY: 0 }}
@@ -17,22 +20,16 @@ function Works() {
       <section className="works-header-section">
         <h1 className="works-header">Web Development</h1>
       </section>
-      <motion.div className="carousel">
-        {/* this div is the actual moving div */}
-        <motion.div
-          drag="x"
-          dragConstraints={{ right: 10, left: -1000 }}
-          className="inner-carousel-Web"
-        >
-          {WebImages.map((image) => {
-            return (
-              <motion.div className="item" key={image}>
-                {/* this div takes the WebImages array and makes smaller div's from each image and places them in a img tag.VERY COOL  */}
-                <img className="Web-Images" src={image}></img>
-              </motion.div>
-            );
-          })}
-        </motion.div>
+      <motion.div
+        drag="x"
+        dragConstraints={{ left: -(2400 - clientWidth) , right: 0 }}
+        className="inner-carousel-Web"
+      >
+        {WebImages.map((image) => {
+          return (
+            <img onDragStart={e => e.preventDefault()} className="Web-Images" src={image} />
+          );
+        })}
       </motion.div>
 
       {/* WEB DEV SECTION END*/}

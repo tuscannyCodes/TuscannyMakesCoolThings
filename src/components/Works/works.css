@@ -67,22 +67,20 @@
   width: 50%;
 }
 
-.item {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  position: relative;
+.Web-Images {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*flex-direction: row;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*pointer-events: none;*/
+  /*position: relative;*/
 }
 
-.carousel {
-  cursor: grab;
-  overflow: hidden;
-}
 /* inner carousel controls the area I can grab */
 .inner-carousel-Web {
+  cursor: grab;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   width: 150em;
@@ -109,7 +107,7 @@
   }
 
   .Web-Images {
-    width: 50%;
-    height: 50%;
+    width: 100vw;
+    height: auto;
   }
 }
