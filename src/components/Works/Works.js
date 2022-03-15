@@ -42,15 +42,14 @@ function Works() {
         {/* this div is the actual moving div */}
         <motion.div
           drag="x"
-          dragConstraints={{ left: -(2400 - clientWidth) , right: 10  }}
+          dragConstraints={{ left: -(2400 - clientWidth) , right: 0  }}
           className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {
             return (
-              <motion.div className="item" key={image}>
-                {/* this div takes the PhotoImages array and makes smaller div's from each image and places them in a img tag.VERY COOL  */}
+             
                 <img onDragStart={e => e.preventDefault()} className="Photo-Images" src={image} />
-              </motion.div>
+             
             );
           })}
         </motion.div>
