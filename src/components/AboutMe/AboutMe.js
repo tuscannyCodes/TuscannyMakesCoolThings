@@ -14,7 +14,7 @@ function AboutMe() {
           className="meImage"
           src="../meIcon.jpg"
           alt="Cartoon of me"
-        ></img>
+        />
       </div>
       <section className="about-me-section">
         <h1>

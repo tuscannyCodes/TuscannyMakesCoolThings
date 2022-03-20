@@ -26,9 +26,9 @@ function Navbar() {
       {/* <h1 id="HamNavbarTitle">I make cool things</h1> */}
       <section id="HamNavbarLinks">
       <div onClick={() => {navigate(ROUTES.HOME)}} className="HamNavbarLinks"><h1>HOME</h1></div>
-      <div onClick={() => {navigate(ROUTES.ABOUT)}} className="HamNavbarLinks"><h1>ABOUT</h1></div>
-      <div onClick={() => {navigate(ROUTES.WORKS)}} className="HamNavbarLinks"><h1>WORKS</h1></div>
-      <div onClick={() => {navigate(ROUTES.CONTACT)}} className="HamNavbarLinks"><h1>CONTACT</h1></div>
+      <div onClick={() => {navigate(ROUTES.ABOUT)}} className="HamNavbarLinks"><h1>ABOUT ME</h1></div>
+      <div onClick={() => {navigate(ROUTES.WORKS)}} className="HamNavbarLinks"><h1>MY WORKS</h1></div>
+      <div onClick={() => {navigate(ROUTES.CONTACT)}} className="HamNavbarLinks"><h1>CONTACT ME</h1></div>
       </section>
       
       </motion.div>
@@ -46,9 +46,9 @@ function Navbar() {
    {/* hamburger end*/}
  
           <div onClick={() => {navigate(ROUTES.HOME)}} className="navbar-text">HOME</div>
-          <div onClick={() => {navigate(ROUTES.ABOUT)}} className="navbar-text">ABOUT</div>
-          <div onClick={() => {navigate(ROUTES.WORKS)}} className="navbar-text">WORKS</div>
-          <div onClick={() => {navigate(ROUTES.CONTACT)}} className="navbar-text">CONTACT</div>
+          <div onClick={() => {navigate(ROUTES.ABOUT)}} className="navbar-text">ABOUT ME</div>
+          <div onClick={() => {navigate(ROUTES.WORKS)}} className="navbar-text">MY WORKS</div>
+          <div onClick={() => {navigate(ROUTES.CONTACT)}} className="navbar-text">CONTACT ME</div>
     </nav>
     </>
     );
