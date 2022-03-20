@@ -21,7 +21,7 @@
   transition: all 1s ease;
 }
 
-#HamNavbarLinks {
+#HamNavbarLinks h1 {
   margin-top: 3em;
   font-size: 30px;
   display: flex;
