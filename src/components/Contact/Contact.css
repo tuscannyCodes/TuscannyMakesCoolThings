@@ -114,3 +114,38 @@
   align-items: center;
   margin-right: 8em;
 }
+
+.note-Text-Small-Screen {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-Container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-left: 0em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-Text {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .note-Text {
+    visibility: hidden;
+  }
+  .note-Text-Small-Screen {
+    visibility: visible;
+  }
+
+  .letter p {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .wrapper:hover .letter {
+    transform: translateY(-40px);
+  }
+}

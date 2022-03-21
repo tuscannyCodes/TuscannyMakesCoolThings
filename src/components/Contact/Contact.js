@@ -19,7 +19,8 @@ function Contact() {
       <div class="lid two"></div>
       <div class="envelope"></div>
       <div class="letter">
-        <p>...</p>
+        <p class="note-Text">...</p>
+        <p class="note-Text-Small-Screen">tuscannypolk@gmail.com</p>
       </div>
     </div>
     <div class="contact-Text">
