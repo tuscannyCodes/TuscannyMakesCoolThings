@@ -37,6 +37,9 @@
   overflow-x: hidden;
 }
 
+.carousel {
+  overflow-x: hidden;
+}
 .works-Container-Images {
   display: flex;
   align-items: center;
@@ -81,6 +84,16 @@
   position: relative;
 }
 
+.Photo-Images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  position: relative;
+}
+
 /* inner carousel controls the area I can grab */
 .inner-carousel-Web {
   cursor: grab;
@@ -93,6 +106,7 @@
 }
 
 .inner-carousel-Photo {
+  cursor: grab;
   display: flex;
   flex-direction: row;
   width: 50em;
@@ -106,8 +120,8 @@
   }
 
   .Photo-Images {
-    width: 70%;
-    height: 70%;
+    width: 100vw;
+    height: auto;
   }
 
   .Web-Images {

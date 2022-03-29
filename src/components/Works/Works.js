@@ -1,4 +1,4 @@
-
+import { useRef, useEffect, useState } from "react"; 
 import "./works.css";
 import { motion } from "framer-motion";
 import WebImages from "./WebImages.js";
@@ -6,14 +6,17 @@ import PhotoImages from "./PhotoImages.js";
 function Works() {
 
   const clientWidth = document.body.clientWidth;
-// ResizeObserver for drag constraints.
-// const innerCarousel = document.getElementsByClassName("inner-carousel-Web")
-// const observer = new ResizeObserver(); 
+const [Width, setWidth] = useState(0); 
+const carousel = useRef();
+useEffect(()=>{
+  console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
+  setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
 
-
+},[]);
 
   return (
-    <motion.div
+    <motion.div 
+    ref ={carousel}
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
       exit={{ scaleY: 0 }}
@@ -28,7 +31,7 @@ function Works() {
       <motion.div
         drag="x"
         // the numerical drag constraint needs to change in order to make the drag responsive */
-        dragConstraints={{ left: -(4400 - clientWidth) , right: 5}}
+        dragConstraints={{ left: -Width , right: 0}}
         className="inner-carousel-Web"
       >
         {WebImages.map((image) => {
@@ -51,7 +54,7 @@ function Works() {
         <motion.div
           drag="x"
         // the numerical drag constraint needs to change in order to make the drag responsive */
-          dragConstraints={{ left: -(2000  - clientWidth) , right: 5 }}
+          dragConstraints={{ left: -(2000  - clientWidth) , right: 0 }}
           className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {
