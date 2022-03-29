@@ -22,7 +22,8 @@ function Works() {
       </section>
       <motion.div
         drag="x"
-        dragConstraints={{ left: -(2400 - clientWidth) , right: 10 }}
+        // the numerical drag constraint needs to change in order to make the drag responsive */
+        dragConstraints={{ left: -(4400 - clientWidth) , right: 5}}
         className="inner-carousel-Web"
       >
         {WebImages.map((image) => {
@@ -43,7 +44,8 @@ function Works() {
         {/* this div is the actual moving div */}
         <motion.div
           drag="x"
-          dragConstraints={{ left: -(2400 - clientWidth) , right: 0  }}
+        // the numerical drag constraint needs to change in order to make the drag responsive */
+          dragConstraints={{ left: -(2400  - clientWidth) , right: 5 }}
           className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {

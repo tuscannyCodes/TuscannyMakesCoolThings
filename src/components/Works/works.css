@@ -87,7 +87,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  width: 150em;
+  width: 250em;
 
   /* background-color: aqua; */
 }
@@ -95,7 +95,7 @@
 .inner-carousel-Photo {
   display: flex;
   flex-direction: row;
-  width: 100em;
+  width: 50em;
 
   /* background-color: aqua; */
 }
