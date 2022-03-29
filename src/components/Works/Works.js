@@ -6,6 +6,11 @@ import PhotoImages from "./PhotoImages.js";
 function Works() {
 
   const clientWidth = document.body.clientWidth;
+// ResizeObserver for drag constraints.
+// const innerCarousel = document.getElementsByClassName("inner-carousel-Web")
+// const observer = new ResizeObserver(); 
+
+
 
   return (
     <motion.div
@@ -14,7 +19,7 @@ function Works() {
       exit={{ scaleY: 0 }}
       className="motion-div"
     >
-      {/* MAKE IMAGES LARGER*/}
+    
       {/* WEB DEV SECTION */}
 
       <section className="works-header-section">
@@ -29,6 +34,7 @@ function Works() {
         {WebImages.map((image) => {
           return (
             <img onDragStart={e => e.preventDefault()} className="Web-Images" src={image} />
+            
           );
         })}
       </motion.div>
@@ -45,7 +51,7 @@ function Works() {
         <motion.div
           drag="x"
         // the numerical drag constraint needs to change in order to make the drag responsive */
-          dragConstraints={{ left: -(2400  - clientWidth) , right: 5 }}
+          dragConstraints={{ left: -(2000  - clientWidth) , right: 5 }}
           className="inner-carousel-Photo"
         >
           {PhotoImages.map((image) => {
@@ -93,7 +99,9 @@ function Works() {
           alt="GraphicDesignExample"
         />
       </div>
+    
     </motion.div>
+    
   );
 }
 
