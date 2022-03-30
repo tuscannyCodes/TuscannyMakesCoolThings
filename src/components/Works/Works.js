@@ -1,47 +1,52 @@
-import { useRef, useEffect, useState } from "react"; 
+import { useRef, useEffect, useState } from "react";
 import "./works.css";
 import { motion } from "framer-motion";
+// import { carousel } from "framer-motion-carousel";
 import WebImages from "./WebImages.js";
 import PhotoImages from "./PhotoImages.js";
 function Works() {
-
   const clientWidth = document.body.clientWidth;
-const [Width, setWidth] = useState(0); 
-const carousel = useRef();
-useEffect(()=>{
-  console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
-  setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-
-},[]);
+  const [Width, setWidth] = useState(0);
+  const carousel = useRef();
+  useEffect(() => {
+    console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  }, []);
 
   return (
-    <motion.div 
-    ref ={carousel}
+    // this is a div for the page transition animation
+    <motion.div
+      
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
       exit={{ scaleY: 0 }}
       className="motion-div"
     >
-    
       {/* WEB DEV SECTION */}
 
       <section className="works-header-section">
         <h1 className="works-header">Web Development</h1>
       </section>
+      <motion.div ref={carousel} className="newCarousel">
       <motion.div
         drag="x"
         // the numerical drag constraint needs to change in order to make the drag responsive */
-        dragConstraints={{ left: -Width , right: 0}}
+        dragConstraints={{ left: -Width, right: 0 }}
         className="inner-carousel-Web"
       >
         {WebImages.map((image) => {
           return (
-            <img onDragStart={e => e.preventDefault()} className="Web-Images" src={image} />
-            
+            <motion.div className="item" key={image}>
+            <img
+              onDragStart={(e) => e.preventDefault()}
+              className="Web-Images"
+              src={image} key = {image}
+            />
+            </motion.div>
           );
         })}
       </motion.div>
-
+</motion.div>
       {/* WEB DEV SECTION END*/}
 
       {/* PHOTOGRAPHY SECTION */}
@@ -49,24 +54,29 @@ useEffect(()=>{
         <h1 className="works-header">PHOTOGRAPHY</h1>
       </section>
 
-      <motion.div className="carousel">
-        {/* this div is the actual moving div */}
-        <motion.div
-          drag="x"
+      {/* <motion.div className="carousel"> */}
+      {/* this div is the actual moving div */}
+      <motion.div className="newCarousel2">
+      <motion.div
+        drag="x"
         // the numerical drag constraint needs to change in order to make the drag responsive */
-          dragConstraints={{ left: -(2000  - clientWidth) , right: 0 }}
-          className="inner-carousel-Photo"
-        >
-          {PhotoImages.map((image) => {
-            return (
-             
-                <img onDragStart={e => e.preventDefault()} className="Photo-Images" src={image} />
-             
-            );
-          })}
-        </motion.div>
+        dragConstraints={{ left: -Width, right: 0 }}
+        className="inner-carousel-Photo"
+      >
+        {PhotoImages.map((image) => {
+          return (
+            <motion.div className="photo-item" key={image}>
+            <img
+              onDragStart={(e) => e.preventDefault()}
+              className="Photo-Images"
+              src={image} key = {image}
+            />
+            </motion.div>
+          );
+        })}
+        {/* </motion.div> */}
       </motion.div>
-
+      </motion.div>
       {/* PHOTOGRAPHY SECTION END*/}
       <section className="works-header-section">
         <h1 className="works-header">GRAPHIC DESIGN</h1>
@@ -102,9 +112,7 @@ useEffect(()=>{
           alt="GraphicDesignExample"
         />
       </div>
-    
     </motion.div>
-    
   );
 }
 

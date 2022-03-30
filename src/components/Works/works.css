@@ -81,7 +81,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  position: relative;
+  /* position: relative; */
 }
 
 .Photo-Images {
@@ -91,28 +91,37 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  position: relative;
+  /* position: relative; */
 }
 
 /* inner carousel controls the area I can grab */
 .inner-carousel-Web {
   cursor: grab;
-  overflow: hidden;
+  /* if I comment out overflow Inner carousel photo is broken... */
+  overflow: visible;
   display: flex;
   flex-direction: row;
-  width: 250em;
-
+  /* this has sizing because images here will be too small otherwise */
+  width: 150vw;
+  height: 40vh;
+  /* background color does nothing? */
   /* background-color: aqua; */
 }
 
 .inner-carousel-Photo {
+  overflow: visible;
   cursor: grab;
   display: flex;
   flex-direction: row;
-  width: 50em;
+  /* the default size of images work fine here with no size styling */
+  /* width: 100vw;
+  height: 50vh; */
 
+  /* background color does nothing? */
   /* background-color: aqua; */
 }
+
+/* This is a test incorperating code from react_framermotion project */
 
 @media (max-width: 600px) {
   .works-header-section {
