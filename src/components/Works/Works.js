@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import "./works.css";
 import { motion } from "framer-motion";
 // import { carousel } from "framer-motion-carousel";
+// making change for git purposes
 import WebImages from "./WebImages.js";
 import PhotoImages from "./PhotoImages.js";
 function Works() {
