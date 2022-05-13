@@ -19,7 +19,7 @@ function HeroSection() {
       <h1 className="hero-text">THINGS!</h1>
       </section>
       <section className="WidgetContainer">
-      <HueChatbot/>
+      {/* <HueChatbot/> */}
       </section>
      
     </header>
