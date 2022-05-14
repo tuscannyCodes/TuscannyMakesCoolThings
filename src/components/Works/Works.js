@@ -24,19 +24,19 @@ function Works() {
       className="motion-div"
     >
 
-    <h1 class="WDSectionHeader">Web Development</h1>  
+    <h1 class="WDSectionHeader">Works</h1>  
      <section class="webWorksContainer">
 <div class="IndividualImageContainer">
 <img class= "Image"src="/portfolio.jpg"/>
 <h1 class="ImageLabel">This Website!</h1>
-<p>My portfolio site built with React JS and Fanmer motion.</p>
+<p class="worksText">My portfolio site built with React JS and Fanmer motion.</p>
 </div>
 
 
 <div class="IndividualImageContainer">
 <img class= "Image"src="/test1.jpg"/>
 <h1 class="ImageLabel">Hue Chatbot</h1>
-<p>This is a chatbot that I build using React JS</p>
+<p class="worksText">This is a chatbot that I build using React JS</p>
 </div>
 
 </section>
@@ -46,14 +46,14 @@ function Works() {
 <div class="IndividualImageContainer">
 <img class= "Image"src="/test2.jpg"/>
 <h1 class="ImageLabel">Fruit Trivia Game</h1>
-<p>This is a fun fruit trivia game built using React JS.</p>
+<p class="worksText">This is a fun fruit trivia game built using React JS.</p>
 </div>
 
 
 <div class="IndividualImageContainer">
 <img class= "Image"src="/test3.jpg"/>
 <h1 class="ImageLabel">Solar website</h1>
-<p>This is a fully responsive webpage built with Javascript.</p>
+<p class="worksText">This is a fully responsive webpage built with Javascript.</p>
 </div>
 
 </section>

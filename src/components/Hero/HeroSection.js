@@ -12,7 +12,13 @@ function HeroSection() {
     exit={{translateX:900}} 
     transition={{ type: "spring", stiffness: 100 }}
     >
+
+
     <header className="hero-section">
+    
+    
+
+
       <section id="heroTextContainer">
       <h1 className="hero-text">TUSCANNY</h1>
       <h1 className="hero-text">MAKES COOL</h1>

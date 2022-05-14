@@ -31,12 +31,9 @@
   }
 
   .content-section {
-    height: 150vh;
+    height: 100vh;
   }
 
-  .content-section {
-    height: 90vh;
-  }
 }
 
 @media (width: 320px) {
