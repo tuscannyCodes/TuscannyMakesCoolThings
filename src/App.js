@@ -6,13 +6,14 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Works from "./components/Works/Works";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-
+import ScrollToTop from "./components/ScrollToTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     
     <Router>
+      <ScrollToTop/>
        <animatePresence exitBeforeEnter={false} initial={true} >
       <div>
         <Navbar />
