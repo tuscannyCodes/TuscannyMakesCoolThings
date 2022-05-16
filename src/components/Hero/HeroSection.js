@@ -23,12 +23,15 @@ function HeroSection() {
       <h1 className="hero-text">TUSCANNY</h1>
       <h1 className="hero-text">MAKES COOL</h1>
       <h1 className="hero-text">THINGS!</h1>
+      <img class="icons" src="/icons.png"></img>
       </section>
       <section className="WidgetContainer">
       {/* <HueChatbot/> */}
       </section>
      
     </header>
+
+   
     <RotatingImg />
     </motion.div>
     
