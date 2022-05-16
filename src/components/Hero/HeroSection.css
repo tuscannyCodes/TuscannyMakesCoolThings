@@ -9,7 +9,7 @@
 
 .hero-text {
   color: black;
-  font-size: clamp(2rem, 1rem + 10vw, 8.5rem);
+  font-size: 100px;
   margin: 0;
   padding: 0;
   cursor: default;
@@ -25,11 +25,19 @@
 .icons{
 margin-left: -20px;
   width: 40%;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 @media (max-width: 600px) {
   .hero-text {
     font-size: 3em;
     width: 100px;
     margin-left: -20px;
+  }
+  .icons{
+    width: 50%;
   }
 }
