@@ -26,9 +26,9 @@ function HeroSection() {
     animate={{translateX:0}}
     exit={{translateX:900}} 
     transition={{ type: "spring", stiffness: 110, mass: 2}}
-    > <span>COOL</span></motion.div></h1>
+    > <span >COOL</span></motion.div></h1>
       <h1 className="hero-text">THINGS!</h1>
-      <img class="icons" src="/icons.png"></img>
+      <img class="icons" src="/icons2.png"></img>
       </section>
       <section className="WidgetContainer">
       {/* <HueChatbot/> */}
