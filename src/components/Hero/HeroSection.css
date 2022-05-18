@@ -1,3 +1,5 @@
+
+
 .hero-section {
   display: flex;
   flex-direction: row;
@@ -5,6 +7,7 @@
   margin-left: 3em;
   margin-bottom: 20em;
   height: 380px;
+  
 }
 
 

@@ -30,6 +30,7 @@ align-items: center;
 .about-me-text {
   margin-top: 1em;
   font-size: 30px;
+  font-weight: bold;
 }
 .meImage {
   margin-top: 2em;
