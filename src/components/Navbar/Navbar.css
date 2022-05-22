@@ -19,6 +19,7 @@
   color: white;
   flex-direction: column;
   transition: all 1s ease;
+  cursor: pointer;
 }
 
 #HamNavbarLinks h1 {

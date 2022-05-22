@@ -36,7 +36,7 @@ function Works() {
 <div class="IndividualImageContainer">
 <img class= "Image"src="/test1.jpg"/>
 <h1 class="ImageLabel">Hue Chatbot</h1>
-<p class="worksText">This is a chatbot that I build using React JS</p>
+<p class="worksText">A chatbot that I build using React JS</p>
 </div>
 
 </section>
@@ -46,14 +46,14 @@ function Works() {
 <div class="IndividualImageContainer">
 <img class= "Image"src="/test2.jpg"/>
 <h1 class="ImageLabel">Fruit Trivia Game</h1>
-<p class="worksText">This is a fun fruit trivia game built using React JS.</p>
+<p class="worksText">A fun fruit trivia game built using React JS.</p>
 </div>
 
 
 <div class="IndividualImageContainer">
-<img class= "Image"src="/test3.jpg"/>
-<h1 class="ImageLabel">Solar website</h1>
-<p class="worksText">This is a fully responsive webpage built with Javascript.</p>
+<img class= "Image"src="/LandingPage.jpg"/>
+<h1 class="ImageLabel">Landing Page</h1>
+<p class="worksText">A fully responsive Landing Page built with Bootstrap.</p>
 </div>
 
 </section>

@@ -5,9 +5,9 @@ import React, { useState, useCallback } from "react";
 
 export const ROUTES = {
     HOME: '/',
-    ABOUT: '/about-asdfadsf',
-    WORKS: '/works-asdfadsf',
-    CONTACT: '/contact-asdfadsf',
+    ABOUT: '/about',
+    WORKS: '/work',
+    CONTACT: '/contact',
 }
 
 function Navbar() {
