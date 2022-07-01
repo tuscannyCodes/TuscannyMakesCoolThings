@@ -34,7 +34,7 @@ function Works() {
 
 
 <div class="IndividualImageContainer">
-<img class= "Image"src="/test1.jpg"/>
+<img class= "Image"src="/hugh.jpg"/>
 <h1 class="ImageLabel">Hue Chatbot</h1>
 <p class="worksText">A chatbot that I build using React JS</p>
 </div>
