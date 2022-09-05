@@ -20,12 +20,12 @@ function Contact() {
       <div class="envelope"></div>
       <div class="letter">
         <p class="note-Text">...</p>
-        <p class="note-Text-Small-Screen">tuscannypolk@gmail.com</p>
+        <p class="note-Text-Small-Screen">LOREMIPSUMLO@lorem.com</p>
       </div>
     </div>
     <div class="contact-Text">
-    <h1 class="contact-Email">Lets work together!</h1>
-    <p class="contact-Email"> <strong>E</strong> | tuscannypolk@gmail.com</p>
+    <h1 class="contact-Email">LOREM IPSUM LOREM LO!</h1>
+    <p class="contact-Email"> <strong>E</strong> | LOREMIPSUMLO@lorem.com</p>
     </div>
     </div>
     </motion.div>

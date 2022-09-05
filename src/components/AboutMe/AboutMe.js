@@ -15,14 +15,12 @@ function AboutMe() {
         </div>
         <section className="about-me-section">
           <h1 className="aboutHeader">
-            Front End Developer and Graphic Designer.
+            LOREM LOR LOREM LOREM IP LOREM IPSUM.
           </h1>
           <p className="about-me-text">
-            Creating cool things is my true passion. Ive been drawing and painting
-            for as long as I can remember. In recent years, my creative curiosities
-            have expanded to coding and photography. <br></br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br></br>
             <br></br>
-            Ive always wondered how ideas and designs come together to make something that is practical and thechnically impressive. I enjoy challenging myself to make one-of-a-kind art and web applications; and I believe that combining my talents in this way is a true test of my natual interests and talents.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
         </section>
       </div>
