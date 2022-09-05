@@ -28,7 +28,7 @@ function Works() {
      <section class="webWorksContainer">
 <div class="IndividualImageContainer">
 <img class= "Image"src="/portfolio.jpg"/>
-<h1 class="ImageLabel">This Website!</h1>
+<h1 class="ImageLabel">Portfolio Website!</h1>
 <p class="worksText">My portfolio site built with React JS and Fanmer motion.</p>
 </div>
 

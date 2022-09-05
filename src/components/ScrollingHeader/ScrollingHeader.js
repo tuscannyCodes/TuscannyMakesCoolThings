@@ -54,7 +54,7 @@ const ScrollingHeader = () => {
           animate="animate"
         >
           <h1>
-           JACK OF ALL TRADES. JACK OF ALL TRADES.
+           LOREM IP IPLO LOREM. LOREM IP IPLO LOREM.
           </h1>
         </motion.div>
       </div>
